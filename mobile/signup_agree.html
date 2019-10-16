@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="3차 포트폴리오 쇼핑몰 리뉴얼입니다">
+   <meta name="robots" content="index, follow">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>회원가입 약관동의 - 타미힐피거 리뉴얼</title>
+
+   <!-- favicon -->
+   <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+   <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+   <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+   <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+   <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+   <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+   <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+   <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+   <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+   <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+   <link rel="manifest" href="images/favicon/manifest.json">
+   <meta name="msapplication-TileColor" content="#ffffff">
+   <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+   <meta name="theme-color" content="#ffffff">
+
+   <!-- oepn graph -->
+   <meta property="og:title" content="tommy hilfiger renewal" />
+   <meta property="og:type" content="website" />
+   <meta property="og:url" content="http://aee07777.dothome.co.kr" />
+   <meta property="og:image" content="http://aee07777.dothome.co.kr/images/logo.jpg" />
+
+   <!--css-->
+   <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+   <header>
+      <div class="header_top">
+         <div class="header_top_leftmenu">
+            <a href="">
+               <div></div>
+               <div></div>
+               <div></div>
+            </a>
+         </div>
+         <!--//header_top_leftmenu-->
+         <h1 class="logo"><a href="index.html">타미힐피거</a></h1>
+         <div class="header_top_rightmenu">
+            <a href="cart.html" class="header_top_cart" data-count="1"><i class="fas fa-shopping-cart"></i></a>
+            <button type="button"><i class="fas fa-search"></i></button>
+         </div>
+         <!--//header_top_rightmenu-->
+         <div class="header_top_search">
+            <form action="#" method="get">
+               <input type="text" id="headerSearch" placeholder="검색어를 입력하세요">
+               <label for="headerSearch" class="hidden">검색</label>
+               <button class="btn">검색</button>
+            </form>
+            <div class="header_top_search_recentlist">
+               <span>최근 검색어</span>
+               <a href="result.html">바지 <span>X</span></a>
+               <a href="result.html">티셔츠 <span>X</span></a>
+               <a href="result.html">모자 <span>X</span></a>
+            </div>
+         </div>
+         <!--//header_top_search-->
+      </div>
+      <!--//header-top-->
+      <nav>
+         <ul lang="en">
+            <li><a href="list.html">sale</a></li>
+            <li><a href="list.html">capsule</a></li>
+            <li><a href="list.html">collection</a></li>
+            <li><a href="list.html">women</a></li>
+            <li><a href="list.html">men</a></li>
+            <li><a href="list.html">kids</a></li>
+            <li><a href="list.html">jeans</a></li>
+            <li><a href="list.html">footwear</a></li>
+            <li><a href="list.html">online exclusive</a></li>
+         </ul>
+      </nav>
+   </header>
+   <main>
+      <div class="subpage_tit">
+         <a href="" class="back"><i class="fas fa-chevron-left"></i></a>
+         <h2 class="big_title">sign up</h2>
+      </div>
+      <!--//subpage_tit-->
+      <div class="signup_step">
+         <span class="active">약관동의</span>
+         <span>정보입력</span>
+         <span>가입완료</span>
+      </div>
+      <!--//signup_step-->
+      <form action="#" method="post" id="termAgree-form">
+         <fieldset>
+            <input type="checkbox" id="allAgree" name="allAgree" class="chkall">
+            <label for="allAgree"><span><i class="far fa-check-square"></i></span><span><i
+                     class="fas fa-check-square"></i></span> 전체동의</label>
+            <p>
+               <input type="checkbox" id="termAgree" name="termAgree" class="chk" required>
+               <label for="termAgree"><span><i class="far fa-check-square"></i></span><span><i
+                        class="fas fa-check-square"></i></span> 이용약관 동의(필수)</label>
+            </p>
+            <div class="terms">
+               <p>고객님께서는 서비스 이용약관 동의를 거부하실 수 있으며, 동의 거부 시 가입, 주문 등 멤버십 서비스 이용이 불가합니다.</p>
+               <h3>제1조 (목적)</h3>
+               <p>이 약관은 주식회사 현대지앤에프(이하 “회사”라 한다)가 운영하는 H패션몰(이하 “몰”이라 한다)에서 제공하는 인터넷 관련 서비스(이하 “서비스”라 한다)를 이용함에 있어 “몰”과
+                  이용자의 권리․의무 및 책임사항을 규정함을 목적으로 합니다.
+                  ※「PC통신, 무선 인터넷 등을 이용하는 전자상거래에 대해서도 그 성질에 반하지 않는 한 이 약관을 준용합니다」</p>
+               <h3>제2조(정의)</h3>
+               <ol>
+                  <li>“몰”이란 회사가 재화 또는 용역(이하 "재화 등"이라 함)을 이용자에게 제공하기 위하여 컴퓨터 등 정보통신설비를 이용하여 재화 등을 거래할 수 있도록 설정한 가상의 영업장을
+                     말하며, 아울러 (사이버)"몰"을 운영하는 사업자의 의미로도 사용합니다.</li>
+                  <li>“이용자”란 “몰”에 접속하여 이 약관에 따라 “몰”이 제공하는 서비스를 받는 회원 및 비회원을 말합니다.</li>
+                  <li>“회원”이라 함은 “몰”에 개인정보를 제공하여 회원등록을 한 자로서, “몰”의 정보를 지속적으로 제공받으며, “몰”이 제공하는 서비스를 계속적으로 이용할 수 있는 자를
+                     말합니다.</li>
+                  <li>“비회원”이라 함은 회원에 가입하지 않고 “몰”이 제공하는 서비스를 이용하는 자를 말합니다.</li>
+                  <h3>제3조 (약관 등의 명시와 설명 및 개정)</h3>
+                  <ol>
+                     <li>"몰"은 이 약관의 내용과 상호 및 대표자 성명, 영업소 소재지 주소(소비자의 불만을 처리할 수 있는 곳의 주소를 포함), 전화번호, 모사전송번호, 전자우편주소,
+                        사업자등록번호, 통신판매업신고번호, 개인정보관리책임자 등을 이용자가 쉽게 알 수 있도록 "몰"의 초기 서비스화면(전면)에 게시합니다. 다만, 약관의 내용은 이용자가
+                        연결화면을 통하여 볼 수 있도록 할 수 있습니다.</li>
+                     <li>"몰"은 이용자가 약관에 동의하기에 앞서 약관에 정하여져 있는 내용 중 청약철회․배송책임․환불조건 등과 같은 중요한 내용을 이용자가 이해할 수 있도록 별도의 연결화면 또는
+                        팝업화면 등을 제공하여 이용자의 확인을 구하여야 합니다.</li>
+                     <li>"몰"은 전자상거래등에서의소비자보호에관한법률, 약관의규제에관한법률, 전자거래기본법, 전자서명법, 정보통신망이용촉진및정보보호등에관한법률, 방문판매등에관한법률, 소비자보호법
+                        등 관계법령을 위배하지 않는 범위에서 이 약관을 개정할 수 있습니다.</li>
+                     <li>"몰"이 약관을 개정할 경우에는 적용일자 및 개정사유를 명시하여 현행약관과 함께 "몰"의 초기화면에 그 적용일자 7일이전부터 적용일자 전일까지 공지합니다.
+                        다만, 이용자에게 불리하게 약관내용을 변경하는 경우에는 최소한 30일 이상의 사전 유예기간을 두고 공지합니다. 이 경우 "몰"은 개정 전 내용과 개정 후 내용을 명확하게
+                        비교하여 이용자가 알기 쉽도록 표시합니다.</li>
+                     <li>"몰"이 약관을 개정할 경우에는 그 개정약관은 그 적용일자 이후에 체결되는 계약에만 적용되고 그 이전에 이미 체결된 계약에 대해서는 개정 전의 약관조항이 그대로
+                        적용됩니다.
+                        다만 이미 계약을 체결한 이용자가 개정약관 조항의 적용을 받기를 원하는 뜻을 제3항에 의한 개정약관의 공지기간 내에 "몰"에 송신하여 "몰"의 동의를 받은 경우에는 개정약관
+                        조항이 적용됩니다.</li>
+                     <li>이 약관에서 정하지 아니한 사항과 이 약관의 해석에 관하여는 전자상거래등에서의소비자보호에관한법률, 약관의규제등에관한법률, 공정거래위원회가 정하는 전자상거래등에서의
+                        소비자보호지침 및 관계법령 또는 상관례에 따릅니다.</li>
+                  </ol>
+            </div>
+            <p>
+               <input type="checkbox" id="privacyAgree" class="chk" name="privacyAgree" required>
+               <label for="privacyAgree"><span><i class="far fa-check-square"></i></span><span><i
+                        class="fas fa-check-square"></i></span> 개인정보 수집 및 이용에 대한 동의(필수)</label>
+            </p>
+            <div class="terms">
+               <p>고객님께서는 서비스 이용약관 동의를 거부하실 수 있으며, 동의 거부 시 가입, 주문 등 멤버십 서비스 이용이 불가합니다.</p>
+
+               <h3>제1조 (목적)</h3>
+               <p>이 약관은 주식회사 현대지앤에프(이하 “회사”라 한다)가 운영하는 H패션몰(이하 “몰”이라 한다)에서 제공하는 인터넷 관련 서비스(이하 “서비스”라 한다)를 이용함에 있어 “몰”과
+                  이용자의 권리․의무 및 책임사항을 규정함을 목적으로 합니다.
+                  ※「PC통신, 무선 인터넷 등을 이용하는 전자상거래에 대해서도 그 성질에 반하지 않는 한 이 약관을 준용합니다」</p>
+
+               <h3>제2조(정의)</h3>
+               <ol>
+                  <li>“몰”이란 회사가 재화 또는 용역(이하 "재화 등"이라 함)을 이용자에게 제공하기 위하여 컴퓨터 등 정보통신설비를 이용하여 재화 등을 거래할 수 있도록 설정한 가상의 영업장을
+                     말하며, 아울러 (사이버)"몰"을 운영하는 사업자의 의미로도 사용합니다.</li>
+                  <li>“이용자”란 “몰”에 접속하여 이 약관에 따라 “몰”이 제공하는 서비스를 받는 회원 및 비회원을 말합니다.</li>
+                  <li>“회원”이라 함은 “몰”에 개인정보를 제공하여 회원등록을 한 자로서, “몰”의 정보를 지속적으로 제공받으며, “몰”이 제공하는 서비스를 계속적으로 이용할 수 있는 자를
+                     말합니다.</li>
+                  <li>“비회원”이라 함은 회원에 가입하지 않고 “몰”이 제공하는 서비스를 이용하는 자를 말합니다.</li>
+
+                  <h3>제3조 (약관 등의 명시와 설명 및 개정)</h3>
+                  <ol>
+                     <li>"몰"은 이 약관의 내용과 상호 및 대표자 성명, 영업소 소재지 주소(소비자의 불만을 처리할 수 있는 곳의 주소를 포함), 전화번호, 모사전송번호, 전자우편주소,
+                        사업자등록번호, 통신판매업신고번호, 개인정보관리책임자 등을 이용자가 쉽게 알 수 있도록 "몰"의 초기 서비스화면(전면)에 게시합니다. 다만, 약관의 내용은 이용자가
+                        연결화면을 통하여 볼 수 있도록 할 수 있습니다.</li>
+                     <li>"몰"은 이용자가 약관에 동의하기에 앞서 약관에 정하여져 있는 내용 중 청약철회․배송책임․환불조건 등과 같은 중요한 내용을 이용자가 이해할 수 있도록 별도의 연결화면 또는
+                        팝업화면 등을 제공하여 이용자의 확인을 구하여야 합니다.</li>
+                     <li>"몰"은 전자상거래등에서의소비자보호에관한법률, 약관의규제에관한법률, 전자거래기본법, 전자서명법, 정보통신망이용촉진및정보보호등에관한법률, 방문판매등에관한법률, 소비자보호법
+                        등 관계법령을 위배하지 않는 범위에서 이 약관을 개정할 수 있습니다.</li>
+                     <li>"몰"이 약관을 개정할 경우에는 적용일자 및 개정사유를 명시하여 현행약관과 함께 "몰"의 초기화면에 그 적용일자 7일이전부터 적용일자 전일까지 공지합니다.
+                        다만, 이용자에게 불리하게 약관내용을 변경하는 경우에는 최소한 30일 이상의 사전 유예기간을 두고 공지합니다. 이 경우 "몰"은 개정 전 내용과 개정 후 내용을 명확하게
+                        비교하여 이용자가 알기 쉽도록 표시합니다.</li>
+                     <li>"몰"이 약관을 개정할 경우에는 그 개정약관은 그 적용일자 이후에 체결되는 계약에만 적용되고 그 이전에 이미 체결된 계약에 대해서는 개정 전의 약관조항이 그대로
+                        적용됩니다.
+                        다만 이미 계약을 체결한 이용자가 개정약관 조항의 적용을 받기를 원하는 뜻을 제3항에 의한 개정약관의 공지기간 내에 "몰"에 송신하여 "몰"의 동의를 받은 경우에는 개정약관
+                        조항이 적용됩니다.</li>
+                     <li>이 약관에서 정하지 아니한 사항과 이 약관의 해석에 관하여는 전자상거래등에서의소비자보호에관한법률, 약관의규제등에관한법률, 공정거래위원회가 정하는 전자상거래등에서의
+                        소비자보호지침 및 관계법령 또는 상관례에 따릅니다.</li>
+                  </ol>
+            </div>
+         </fieldset>
+         <p>
+            <a href="">취소</a>
+            <button type="button">다음</button>
+         </p>
+      </form>
+   </main>
+   <aside>
+      <div class="scroll_hide">
+         <h2 class="aside_logo"><a href="index.html">타미힐피거</a></h2>
+         <ul>
+            <li><a href="login.html"><i class="fas fa-lock"></i>로그인</a></li>
+            <li><a href="signup_agree.html"><i class="fas fa-user-plus"></i>회원가입</a></li>
+            <li><a href="cart.html"><i class="fas fa-shopping-cart"></i>장바구니</a></li>
+            <li><a href="cart.html"><i class="fas fa-heart"></i>관심상품</a></li>
+         </ul>
+         <form action="#">
+            <input type="text" id="sideSearch" name="sideSearch">
+            <label for="sideSearch" class="hidden">검색</label>
+            <button><i class="fas fa-search"></i></button>
+         </form>
+         <div class="aside_category" lang="en">
+            <h3 lang="ko">카테고리</h3>
+            <div class="aside_category_item">
+               <div class="list_title">
+                  <h4>sale</h4>
+                  <span><i class="fas fa-angle-down"></i></span>
+                  <span><i class="fas fa-angle-up"></i></span>
+               </div>
+               <ul>
+                  <li><a href="list.html">WOMEN - 19SS</a></li>
+                  <li><a href="list.html">WOMEN - 19FW</a></li>
+                  <li><a href="list.html">MEN - 19SS</a></li>
+                  <li><a href="list.html">MEN - 19FW</a></li>
+                  <li><a href="list.html">FOOTWEAR - SEASON-OFF</a></li>
+               </ul>
+            </div>
+            <div class="aside_category_item">
+               <div class="list_title">
+                  <h4>capsule</h4>
+                  <span><i class="fas fa-angle-down"></i></span>
+                  <span><i class="fas fa-angle-up"></i></span>
+               </div>
+               <ul>
+                  <li><a href="list.html">ICON CAPSULE</a></li>
+                  <li><a href="list.html">ESSENTIAL CAPSULE</a></li>
+                  <li><a href="list.html">ZENDAYA CAPSULE</a></li>
+                  <li><a href="list.html">#SUMMER HERITAGE Capsule</a></li>
+                  <li><a href="list.html">#FLORAL FESTIVAL Capsule</a></li>
+                  <li><a href="list.html">#COCA COLA capsule</a></li>
+                  <li><a href="list.html">#Crest capsule 6.0</a></li>
+                  <li><a href="list.html">#Outdoors Capsule 6.0</a></li>
+                  <li><a href="list.html">#EMOJI Capsule 3.0</a></li>
+               </ul>
+            </div>
+            <div class="aside_category_item">
+               <div class="list_title">
+                  <h4>collection</h4>
+                  <span><i class="fas fa-angle-down"></i></span>
+                  <span><i class="fas fa-angle-up"></i></span>
+               </div>
+               <ul>
+                  <li><a href="list.html">MERCEDES BENZ COLLECTION</a></li>
+                  <li><a href="list.html">WOMEN - 19SS Hilfiger Collection</a></li>
+                  <li><a href="list.html">MEN - 19SS Hilfiger Collection</a></li>
+                  <li><a href="list.html">KIDS - 199SS Backpack Collection</a></li>
+               </ul>
+            </div>
+            <div class="aside_category_item">
+               <div class="list_title">
+                  <h4>women</h4>
+                  <span><i class="fas fa-angle-down"></i></span>
+                  <span><i class="fas fa-angle-up"></i></span>
+               </div>
+               <ul>
+                  <li><a href="list.html">ALL</a></li>
+                  <li><a href="list.html">Shirts</a></li>
+                  <li><a href="list.html">Top</a></li>
+                  <li><a href="list.html">Knit</a></li>
+                  <li><a href="list.html">Onepiece/Jumpsuit</a></li>
+                  <li><a href="list.html">Cardigan</a></li>
+                  <li><a href="list.html">Outer</a></li>
+                  <li><a href="list.html">Down Outer</a></li>
+                  <li><a href="list.html">Pants</a></li>
+                  <li><a href="list.html">Skirt</a></li>
+                  <li><a href="list.html">Bag/ACC/Socks</a></li>
+                  <li><a href="list.html">Sleepwear</a></li>
+               </ul>
+            </div>
+            <div class="aside_category_item">
+               <div class="list_title">
+                  <h4>men</h4>
+                  <span><i class="fas fa-angle-down"></i></span>
+                  <span><i class="fas fa-angle-up"></i></span>
+               </div>
+               <ul>
+                  <li><a href="list.html">ALL</a></li>
+                  <li><a href="list.html">BIG &amp; TALL</a></li>
+                  <li><a href="list.html">Shirts</a></li>
+                  <li><a href="list.html">Top</a></li>
+                  <li><a href="list.html">Knit</a></li>
+                  <li><a href="list.html">Cardigan</a></li>
+                  <li><a href="list.html">Outer</a></li>
+                  <li><a href="list.html">Pants</a></li>
+                  <li><a href="list.html">Bag/ACC/Socks</a></li>
+                  <li><a href="list.html">Swimwear</a></li>
+               </ul>
+            </div>
+            <div class="aside_category_item">
+               <div class="list_title">
+                  <h4>kids</h4>
+                  <span><i class="fas fa-angle-down"></i></span>
+                  <span><i class="fas fa-angle-up"></i></span>
+               </div>
+               <ul>
+                  <li><a href="list.html">ALL</a></li>
+                  <li><a href="list.html">New Born</a></li>
+                  <li><a href="list.html">Little Girl(Age 2-7)</a></li>
+                  <li><a href="list.html">Little Boy(Age 2-7)</a></li>
+                  <li><a href="list.html">Big Girl(Age 8-16)</a></li>
+                  <li><a href="list.html">Big Boy(Age 8-16)</a></li>
+               </ul>
+            </div>
+            <div class="aside_category_item">
+               <div class="list_title">
+                  <h4>jeans</h4>
+                  <span><i class="fas fa-angle-down"></i></span>
+                  <span><i class="fas fa-angle-up"></i></span>
+               </div>
+               <ul>
+                  <li><a href="list.html">ALL</a></li>
+                  <li><a href="list.html">#PEACE&amp;LOVE</a></li>
+                  <li><a href="list.html">#UPCYCLE DENIM</a></li>
+                  <li><a href="list.html">Jeans Men</a></li>
+                  <li><a href="list.html">Jeans Women</a></li>
+               </ul>
+            </div>
+            <div class="aside_category_item">
+               <div class="list_title">
+                  <h4>footwear</h4>
+                  <span><i class="fas fa-angle-down"></i></span>
+                  <span><i class="fas fa-angle-up"></i></span>
+               </div>
+               <ul>
+                  <li><a href="list.html">ALL</a></li>
+                  <li><a href="list.html">[19FW]NEW ARRIVALS</a></li>
+                  <li><a href="list.html">[19SS]B/E/S/T Items</a></li>
+                  <li><a href="list.html">[WOMEN]Footwear</a></li>
+                  <li><a href="list.html">[MEN]Footwear</a></li>
+               </ul>
+            </div>
+            <div class="aside_category_item">
+               <div class="list_title">
+                  <h4>online exclusive</h4>
+                  <span><i class="fas fa-angle-down"></i></span>
+                  <span><i class="fas fa-angle-up"></i></span>
+               </div>
+               <ul>
+                  <li><a href="list.html">WOMEN</a></li>
+                  <li><a href="list.html">MEN</a></li>
+                  <li><a href="list.html">JEANS</a></li>
+                  <li><a href="list.html">FOOTWEAR</a></li>
+               </ul>
+            </div>
+         </div><!--//aside_category-->
+         </div>
+         <!--//scroll_hide-->
+   </aside>
+   <span class="aside-bg"></span>
+   <footer>
+      <div class="footer_menu">
+         <ul>
+            <li>
+               <a href="">
+                  <span class="icon megaphone">확성기 아이콘</span>
+                  <span>공지사항</span>
+               </a>
+            </li>
+            <li>
+               <a href="">
+                  <span class="icon cs">콜센터 아이콘</span>
+                  <span>고객센터</span>
+               </a>
+            </li>
+            <li>
+               <a href="cart.html">
+                  <span class="icon cart">카트 아이콘</span>
+                  <span>장바구니</span>
+               </a>
+            </li>
+            <li>
+               <a href="">
+                  <span class="icon review">글쓰기 아이콘</span>
+                  <span>사용후기</span>
+               </a>
+            </li>
+            <li>
+               <a href="">
+                  <span class="icon messege">메세지 아이콘</span>
+                  <span>문의게시판</span>
+               </a>
+            </li>
+            <li>
+               <a href="">
+                  <span class="icon heart">하트 아이콘</span>
+                  <span>찜한 상품 보기</span>
+               </a>
+            </li>
+            <li>
+               <a href="">
+                  <span class="icon delivery">택배차 아이콘</span>
+                  <span>주문배송 조회</span>
+               </a>
+            </li>
+            <li>
+               <a href="">
+                  <span class="icon store">매장 아이콘</span>
+                  <span>오프라인 매장</span>
+               </a>
+            </li>
+         </ul>
+      </div>
+      <!--//footer_menu-->
+      <ul class="footer_about">
+         <li><a href="">회사소개</a></li>
+         <li><a href="">이용약관</a></li>
+         <li><a href="">개인정보처리방침</a></li>
+         <li><a href="">회원혜택</a></li>
+      </ul>
+      <!--//footer_list-->
+      <div class="footer_info">
+         <p class="footer_logo"><img src="images/hyundai_G&F.png" alt="현대 지엔에프 로고"></p>
+         <p>
+            상호: (주) 현대지앤에프<br />
+            주소: 서울특별시 강동구 강동대로 197(성내동)<br />
+            대표이사 : 조준행<br />
+            사업자등록번호: 272-86-00540<br />
+            통신판매업신고: 제 2017 서울강동 01176호 <a href="">사업자정보확인</a><br />
+            개인정보 관리책임자: 유태영<br />
+            호스팅서비스: (주)현대지앤에프<br />
+            고객센터: 전화 1600-3982 팩스 02-476-8169<br />
+            이메일 <a href="mailto:hfashionmall@hyundaihmall.com" lang="en">hfashionmall@hyundaihmall.com</a>
+         </p>
+      </div>
+      <!--//footer_info-->
+      <div class="iconcopyright">
+         <p>이 사이트의 아이콘은 icon 8 사이트의 아이콘을 사용하였습니다.</p>
+         <a href="https://icons8.com/icons">https://icons8.com/icons</a>
+      </div>
+      <!--//iconcopyright-->
+      <div class="copyright">
+         <p>COPYRIGHTS&copy; 2017 HYUNDAI G&F CO. LTD. ALL RIGHTS RESERVED.</p>
+         <p>H패션몰은 오즈세컨, 세컨 플로어, 루즈 앤 라운지, SJYP, 타미 힐피거, 아메리칸이글, CK캘빈클라인, DKNY, 덱케의 온라인 직영몰이며, 정품만 취급합니다.</p>
+      </div>
+      <!--//copyright-->
+   </footer>
+   <div class="scrollBtn">
+      <a href=""><i class="fas fa-angle-up"></i></a>
+      <a href=""><i class="fas fa-angle-down"></i></a>
+   </div>
+   <!--Script-->
+   <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+   <script src="js/main.js"></script>
+   <!-- //fontawesome -->
+   <script src="js/all.min.js"></script>
+
+</body>
+
+</html>

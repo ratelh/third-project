@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="3차 포트폴리오 쇼핑몰 리뉴얼입니다">
+   <meta name="robots" content="index, follow">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>장바구니 - 타미힐피거 리뉴얼</title>
+
+   <!-- favicon -->
+   <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+   <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+   <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+   <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+   <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+   <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+   <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+   <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+   <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+   <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+   <link rel="manifest" href="images/favicon/manifest.json">
+   <meta name="msapplication-TileColor" content="#ffffff">
+   <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+   <meta name="theme-color" content="#ffffff">
+
+   <!-- oepn graph -->
+   <meta property="og:title" content="tommy hilfiger renewal" />
+   <meta property="og:type" content="website" />
+   <meta property="og:url" content="http://aee07777.dothome.co.kr" />
+   <meta property="og:image" content="http://aee07777.dothome.co.kr/images/logo.jpg" />
+
+   <!--css-->
+   <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+   <header>
+      <div class="header_top">
+         <div class="header_top_leftmenu">
+            <a href="">
+               <div></div>
+               <div></div>
+               <div></div>
+            </a>
+         </div>
+         <!--//header_top_leftmenu-->
+         <h1 class="logo"><a href="index.html">타미힐피거</a></h1>
+         <div class="header_top_rightmenu">
+            <a href="cart.html" class="header_top_cart" data-count="1"><i class="fas fa-shopping-cart"></i></a>
+            <button type="button"><i class="fas fa-search"></i></button>
+         </div>
+         <!--//header_top_rightmenu-->
+         <div class="header_top_search">
+            <form action="#" method="get">
+               <input type="text" id="headerSearch" placeholder="검색어를 입력하세요">
+               <label for="headerSearch" class="hidden">검색</label>
+               <button class="btn">검색</button>
+            </form>
+            <div class="header_top_search_recentlist">
+               <span>최근 검색어</span>
+               <a href="result.html">바지 <span>X</span></a>
+               <a href="result.html">티셔츠 <span>X</span></a>
+               <a href="result.html">모자 <span>X</span></a>
+            </div>
+         </div>
+         <!--//header_top_search-->
+      </div>
+      <!--//header-top-->
+      <nav>
+         <ul lang="en">
+            <li><a href="list.html">sale</a></li>
+            <li><a href="list.html">capsule</a></li>
+            <li><a href="list.html">collection</a></li>
+            <li><a href="list.html">women</a></li>
+            <li><a href="list.html">men</a></li>
+            <li><a href="list.html">kids</a></li>
+            <li><a href="list.html">jeans</a></li>
+            <li><a href="list.html">footwear</a></li>
+            <li><a href="list.html">online exclusive</a></li>
+         </ul>
+      </nav>
+   </header>
+   <main>
+      <div class="subpage_tit cart">
+         <a href="" class="back"><i class="fas fa-chevron-left"></i></a>
+         <h2 class="big_title" lang="en">cart</h2>
+      </div>
+      <ul class="cartTab">
+         <li class="active"><a href="">장바구니(1)</a></li>
+         <li><a href="">최근 본 상품</a></li>
+      </ul>
+      <div class="cart_item">
+         <div class="cart_item_summary">
+            <div class="cart_item_thumbnail">
+               <img src="images/mdpic02@2x.png" alt="[여성] 코튼 클래식 반소매 티셔츠">
+            </div><!--//cart_item_thumbnail-->
+            <div class="cart_item_info">
+               <p>[여성] 코튼 클래식 반소매 티셔츠</p>
+               <p>배송 : 기본배송</p>
+               <p>42,120 원</p>
+               <p><span>-</span><input type="text" value="1"><span>+</span></p>
+            </div><!--//cart_item_info-->
+            <div class="cart_item_select">
+               <input type="checkbox" id="cartItem" class="hidden">
+               <label for="cartItem"><i class="far fa-check-square"></i><i class="fas fa-check-square"></i></label>
+            </div><!--//cart_item_select-->
+         </div><!--//cart_item_summary-->
+         <div class="cart_item_option">
+            <div class="current_select">
+               <p>[옵션:<span>옐로우</span>/<span>M</span>]</p>
+               <button class="btn">옵션변경</button>
+            </div>
+            <ul>
+               <li>
+                  <span>색상</span>
+                  <form action="#">
+                     <div class="select_wrapper">
+                        <label for="colorOpt">[필수]옵션을 변경합니다</label>
+                        <select id="colorOpt">
+                           <option value="[필수]옵션을 변경합니다" selected>[필수]옵션을 변경합니다</option>
+                           <option value="노란색">노란색</option>
+                           <option value="하얀색">하얀색</option>
+                           <option value="검정색">검정색</option>
+                        </select>
+                     </div>
+                  </form>
+               </li> 
+               <li>
+                  <span>사이즈</span>
+                  <form action="#">
+                     <div class="select_wrapper">
+                           <label for="sizeOpt">[필수]옵션을 변경합니다</label>
+                           <select id="sizeOpt">
+                              <option value="[필수]옵션을 변경합니다" selected>[필수]옵션을 변경합니다</option>
+                              <option value="XS">XS</option>
+                              <option value="M">M</option>
+                              <option value="L">L</option>
+                           </select>
+                     </div>
+                  </form>
+               </li>
+            </ul>
+            <p>
+               <button class="btn">변경</button>
+               <button>취소</button>
+            </p>
+         </div><!--//cart_item_option-->
+         <p class="cart_item_total">합계 : 42,120원</p>
+         <p class="cart_item_selectbtn">
+            <span>
+                  <button>삭제</button>
+                  <button>관심상품</button>
+            </span>
+            <span>
+                  <button class="btn">주문하기</button>
+            </span>
+         </p>
+      </div><!--//cart_item-->
+      <p class="cart_item_selectall">
+         <button>전체선택</button>
+         <button>선택삭제</button>
+      </p>
+      <div class="delivery_fee">
+            <p>
+                  <span>결제 예정금액</span>
+                  <span>42,120 원</span>
+               </p>
+               <p>
+                  <span>총 상품금액</span>
+                  <span>42,120 원</span>
+               </p>
+               <p>
+                  <span>총 배송비</span>
+                  <span>0원</span>
+               </p>
+      </div>
+      <p class="order_btn">
+         <button>선택상품 주문</button>
+         <button class="btn">전체상품 주문</button>
+      </p>
+   </main>
+   <aside>
+      <div class="scroll_hide">
+         <h2 class="aside_logo"><a href="index.html">타미힐피거</a></h2>
+         <ul>
+            <li><a href="login.html"><i class="fas fa-lock"></i>로그인</a></li>
+            <li><a href="signup_agree.html"><i class="fas fa-user-plus"></i>회원가입</a></li>
+            <li><a href="cart.html"><i class="fas fa-shopping-cart"></i>장바구니</a></li>
+            <li><a href="cart.html"><i class="fas fa-heart"></i>관심상품</a></li>
+         </ul>
+         <form action="#">
+            <input type="text" id="sideSearch" name="sideSearch">
+            <label for="sideSearch" class="hidden">검색</label>
+            <button><i class="fas fa-search"></i></button>
+         </form>
+         <div class="aside_category" lang="en">
+            <h3 lang="ko">카테고리</h3>
+            <div class="aside_category_item">
+               <div class="list_title">
+                  <h4>sale</h4>
+                  <span><i class="fas fa-angle-down"></i></span>
+                  <span><i class="fas fa-angle-up"></i></span>
+               </div>
+               <ul>
+                  <li><a href="list.html">WOMEN - 19SS</a></li>
+                  <li><a href="list.html">WOMEN - 19FW</a></li>
+                  <li><a href="list.html">MEN - 19SS</a></li>
+                  <li><a href="list.html">MEN - 19FW</a></li>
+                  <li><a href="list.html">FOOTWEAR - SEASON-OFF</a></li>
+               </ul>
+            </div>
+            <div class="aside_category_item">
+               <div class="list_title">
+                  <h4>capsule</h4>
+                  <span><i class="fas fa-angle-down"></i></span>
+                  <span><i class="fas fa-angle-up"></i></span>
+               </div>
+               <ul>
+                  <li><a href="list.html">ICON CAPSULE</a></li>
+                  <li><a href="list.html">ESSENTIAL CAPSULE</a></li>
+                  <li><a href="list.html">ZENDAYA CAPSULE</a></li>
+                  <li><a href="list.html">#SUMMER HERITAGE Capsule</a></li>
+                  <li><a href="list.html">#FLORAL FESTIVAL Capsule</a></li>
+                  <li><a href="list.html">#COCA COLA capsule</a></li>
+                  <li><a href="list.html">#Crest capsule 6.0</a></li>
+                  <li><a href="list.html">#Outdoors Capsule 6.0</a></li>
+                  <li><a href="list.html">#EMOJI Capsule 3.0</a></li>
+               </ul>
+            </div>
+            <div class="aside_category_item">
+               <div class="list_title">
+                  <h4>collection</h4>
+                  <span><i class="fas fa-angle-down"></i></span>
+                  <span><i class="fas fa-angle-up"></i></span>
+               </div>
+               <ul>
+                  <li><a href="list.html">MERCEDES BENZ COLLECTION</a></li>
+                  <li><a href="list.html">WOMEN - 19SS Hilfiger Collection</a></li>
+                  <li><a href="list.html">MEN - 19SS Hilfiger Collection</a></li>
+                  <li><a href="list.html">KIDS - 199SS Backpack Collection</a></li>
+               </ul>
+            </div>
+            <div class="aside_category_item">
+               <div class="list_title">
+                  <h4>women</h4>
+                  <span><i class="fas fa-angle-down"></i></span>
+                  <span><i class="fas fa-angle-up"></i></span>
+               </div>
+               <ul>
+                  <li><a href="list.html">ALL</a></li>
+                  <li><a href="list.html">Shirts</a></li>
+                  <li><a href="list.html">Top</a></li>
+                  <li><a href="list.html">Knit</a></li>
+                  <li><a href="list.html">Onepiece/Jumpsuit</a></li>
+                  <li><a href="list.html">Cardigan</a></li>
+                  <li><a href="list.html">Outer</a></li>
+                  <li><a href="list.html">Down Outer</a></li>
+                  <li><a href="list.html">Pants</a></li>
+                  <li><a href="list.html">Skirt</a></li>
+                  <li><a href="list.html">Bag/ACC/Socks</a></li>
+                  <li><a href="list.html">Sleepwear</a></li>
+               </ul>
+            </div>
+            <div class="aside_category_item">
+               <div class="list_title">
+                  <h4>men</h4>
+                  <span><i class="fas fa-angle-down"></i></span>
+                  <span><i class="fas fa-angle-up"></i></span>
+               </div>
+               <ul>
+                  <li><a href="list.html">ALL</a></li>
+                  <li><a href="list.html">BIG &amp; TALL</a></li>
+                  <li><a href="list.html">Shirts</a></li>
+                  <li><a href="list.html">Top</a></li>
+                  <li><a href="list.html">Knit</a></li>
+                  <li><a href="list.html">Cardigan</a></li>
+                  <li><a href="list.html">Outer</a></li>
+                  <li><a href="list.html">Pants</a></li>
+                  <li><a href="list.html">Bag/ACC/Socks</a></li>
+                  <li><a href="list.html">Swimwear</a></li>
+               </ul>
+            </div>
+            <div class="aside_category_item">
+               <div class="list_title">
+                  <h4>kids</h4>
+                  <span><i class="fas fa-angle-down"></i></span>
+                  <span><i class="fas fa-angle-up"></i></span>
+               </div>
+               <ul>
+                  <li><a href="list.html">ALL</a></li>
+                  <li><a href="list.html">New Born</a></li>
+                  <li><a href="list.html">Little Girl(Age 2-7)</a></li>
+                  <li><a href="list.html">Little Boy(Age 2-7)</a></li>
+                  <li><a href="list.html">Big Girl(Age 8-16)</a></li>
+                  <li><a href="list.html">Big Boy(Age 8-16)</a></li>
+               </ul>
+            </div>
+            <div class="aside_category_item">
+               <div class="list_title">
+                  <h4>jeans</h4>
+                  <span><i class="fas fa-angle-down"></i></span>
+                  <span><i class="fas fa-angle-up"></i></span>
+               </div>
+               <ul>
+                  <li><a href="list.html">ALL</a></li>
+                  <li><a href="list.html">#PEACE&amp;LOVE</a></li>
+                  <li><a href="list.html">#UPCYCLE DENIM</a></li>
+                  <li><a href="list.html">Jeans Men</a></li>
+                  <li><a href="list.html">Jeans Women</a></li>
+               </ul>
+            </div>
+            <div class="aside_category_item">
+               <div class="list_title">
+                  <h4>footwear</h4>
+                  <span><i class="fas fa-angle-down"></i></span>
+                  <span><i class="fas fa-angle-up"></i></span>
+               </div>
+               <ul>
+                  <li><a href="list.html">ALL</a></li>
+                  <li><a href="list.html">[19FW]NEW ARRIVALS</a></li>
+                  <li><a href="list.html">[19SS]B/E/S/T Items</a></li>
+                  <li><a href="list.html">[WOMEN]Footwear</a></li>
+                  <li><a href="list.html">[MEN]Footwear</a></li>
+               </ul>
+            </div>
+            <div class="aside_category_item">
+               <div class="list_title">
+                  <h4>online exclusive</h4>
+                  <span><i class="fas fa-angle-down"></i></span>
+                  <span><i class="fas fa-angle-up"></i></span>
+               </div>
+               <ul>
+                  <li><a href="list.html">WOMEN</a></li>
+                  <li><a href="list.html">MEN</a></li>
+                  <li><a href="list.html">JEANS</a></li>
+                  <li><a href="list.html">FOOTWEAR</a></li>
+               </ul>
+            </div>
+         </div>
+         <!--//aside_category-->
+        </div> 
+         <!--//scroll_hide-->
+   </aside>
+   <span class="aside-bg"></span>
+   <footer>
+      <div class="footer_menu">
+         <ul>
+            <li>
+               <a href="">
+                  <span class="icon megaphone">확성기 아이콘</span>
+                  <span>공지사항</span>
+               </a>
+            </li>
+            <li>
+               <a href="">
+                  <span class="icon cs">콜센터 아이콘</span>
+                  <span>고객센터</span>
+               </a>
+            </li>
+            <li>
+               <a href="cart.html">
+                  <span class="icon cart">카트 아이콘</span>
+                  <span>장바구니</span>
+               </a>
+            </li>
+            <li>
+               <a href="">
+                  <span class="icon review">글쓰기 아이콘</span>
+                  <span>사용후기</span>
+               </a>
+            </li>
+            <li>
+               <a href="">
+                  <span class="icon messege">메세지 아이콘</span>
+                  <span>문의게시판</span>
+               </a>
+            </li>
+            <li>
+               <a href="">
+                  <span class="icon heart">하트 아이콘</span>
+                  <span>찜한 상품 보기</span>
+               </a>
+            </li>
+            <li>
+               <a href="">
+                  <span class="icon delivery">택배차 아이콘</span>
+                  <span>주문배송 조회</span>
+               </a>
+            </li>
+            <li>
+               <a href="">
+                  <span class="icon store">매장 아이콘</span>
+                  <span>오프라인 매장</span>
+               </a>
+            </li>
+         </ul>
+      </div>
+      <!--//footer_menu-->
+      <ul class="footer_about">
+         <li><a href="">회사소개</a></li>
+         <li><a href="">이용약관</a></li>
+         <li><a href="">개인정보처리방침</a></li>
+         <li><a href="">회원혜택</a></li>
+      </ul>
+      <!--//footer_list-->
+      <div class="footer_info">
+         <p class="footer_logo"><img src="images/hyundai_G&F.png" alt="현대 지엔에프 로고"></p>
+         <p>
+            상호: (주) 현대지앤에프<br />
+            주소: 서울특별시 강동구 강동대로 197(성내동)<br />
+            대표이사 : 조준행<br />
+            사업자등록번호: 272-86-00540<br />
+            통신판매업신고: 제 2017 서울강동 01176호 <a href="">사업자정보확인</a><br />
+            개인정보 관리책임자: 유태영<br />
+            호스팅서비스: (주)현대지앤에프<br />
+            고객센터: 전화 1600-3982 팩스 02-476-8169<br />
+            이메일 <a href="mailto:hfashionmall@hyundaihmall.com" lang="en">hfashionmall@hyundaihmall.com</a>
+         </p>
+      </div>
+      <!--//footer_info-->
+      <div class="iconcopyright">
+         <p>이 사이트의 아이콘은 icon 8 사이트의 아이콘을 사용하였습니다.</p>
+         <a href="https://icons8.com/icons">https://icons8.com/icons</a>
+      </div>
+      <!--//iconcopyright-->
+      <div class="copyright">
+         <p>COPYRIGHTS&copy; 2017 HYUNDAI G&F CO. LTD. ALL RIGHTS RESERVED.</p>
+         <p>H패션몰은 오즈세컨, 세컨 플로어, 루즈 앤 라운지, SJYP, 타미 힐피거, 아메리칸이글, CK캘빈클라인, DKNY, 덱케의 온라인 직영몰이며, 정품만 취급합니다.</p>
+      </div>
+      <!--//copyright-->
+   </footer>
+   <div class="scrollBtn">
+      <a href=""><i class="fas fa-angle-up"></i></a>
+      <a href=""><i class="fas fa-angle-down"></i></a>
+   </div>
+   <!--Script-->
+   <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+   <script src="js/main.js"></script>
+   <!-- //fontawesome -->
+   <script src="js/all.min.js"></script>
+
+</body>
+
+</html>
